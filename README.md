@@ -4,7 +4,7 @@ https://github.com/increments/qiita-cli
 
 ```bash
 # 記事の作成
-$ npx qiita new {記事のファイルのベース名}
+$ npx qiita new {記事のベース名}
 
 # 記事のプレビュー
 $ npx qiita preview
@@ -16,5 +16,5 @@ $ npx qiita pull
 $ npx qiita pull --force
 
 # 記事の公開
-$ npx qiita publish
+$ npx qiita publish {記事のベース名}
 ```
