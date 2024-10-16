@@ -4,7 +4,7 @@ tags:
   - kubernetes
   - ExternalSecret
 private: false
-updated_at: '2024-10-16T08:22:50+09:00'
+updated_at: '2024-10-16T10:40:49+09:00'
 id: 1c68f122f602592470d3
 organization_url_name: null
 slide: false
@@ -68,18 +68,21 @@ ExternalSecret は、k8s クラスタ外部の、専用のシークレット管�
 - 監査ログの取得を GCP や AWS に委任できる。
 - Secrets 管理サービス側のアクセス制御を活用して、複数環境・複数クラスタであっても柔軟な権限管理ができる。
 
-# Secret 管理コンポーネント
+# ESO がなぜ必要なのか？
 
-## Secret 管理コンポーネントの必要性
+## シークレット管理コンポーネントの必要性
 
 上記を踏まえて ExternalSecret を使おうと思うのですが、これ単体では運用できません。
-外部 Secret 管理サービス（GCP/AWS SecretsManager 等）への接続や自動同期できるようにするには、`ESO` や `KES`（非推奨） のような Secret 管理コンポーネントを使う必要があります。
+
+これはわりと単純な話で、**外部 Secret 管理サービス（GCP/AWS SecretsManager 等）への接続や自動同期できるようにするには、`ESO` や `KES`（非推奨） のような シークレット管理コンポーネントを使う必要があります。**
 
 ESO の公式ドキュメントでも以下の通り述べられています。
 
 > The goal of External Secrets Operator is to synchronize secrets from external APIs into Kubernetes.
 
 https://external-secrets.io/latest/
+
+ちなみに、ESO は一般的に、Helm によりパッケージ化されたものをデプロイ・アップデートして運用します。
 
 ## 【補足】KES とは
 
@@ -95,8 +98,6 @@ https://github.com/external-secrets/kubernetes-external-secrets/issues/864
 
 代わりに後継の `ExternalSecret Operator（ESO）`が推奨されています。
 ESO は Go 言語で書かれています。
-
-# ESO のアーキテクチャ
 
 ## ESO の動作イメージ
 
@@ -117,7 +118,7 @@ SecretStore は接続情報を定義するオブジェクトですが、KES 時�
 管理の柔軟性を上げる目的で、ESO で導入されました。
 :::
 
-## 各コンポーネントの役割
+# まとめ: 各コンポーネントの役割
 
 まとめると、シークレット周りの各コンポーネントはざっくり以下の役割分担になっていると解釈できます。
 
