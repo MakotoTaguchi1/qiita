@@ -5,7 +5,7 @@ tags:
   - 転職
   - フリーランス
 private: false
-updated_at: '2024-11-08T21:02:18+09:00'
+updated_at: '2024-11-08T21:06:04+09:00'
 id: af97494f2f0b982f7cf3
 organization_url_name: null
 slide: false
@@ -238,5 +238,3 @@ https://qiita.com/moroball14/items/f4db1696b7c2f6cc63ef
 
 フリーランスに転身して一年目で感じたこと・これまでの転職活動を振り返った上で、今後やっていきたいことを書いてみました。
 今後フリー転身を考えている方・転職活動をされる方の参考になれば幸いです。
-
-https://qiita.com/official-events/9687d5419295cd871fdc
