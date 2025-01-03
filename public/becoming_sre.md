@@ -31,8 +31,8 @@ ignorePublish: false
 （レジリエンス=回復力）
 :::
 
-↓ 巻末の索引からも頻出しているのがわかります。
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/577028/0db0aedf-5687-bfd8-34ac-27271dacad36.png)
+↓ 巻末の索引からも頻出しているのが見てとれます。
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/577028/9a388b85-4e2e-73a6-fdda-e4fb5daa3822.png)
 
 SRE として働く上で、レジリエンス工学を学ぶ価値は大いにあると述べられています。
 
