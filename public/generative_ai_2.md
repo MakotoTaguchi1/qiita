@@ -2,11 +2,11 @@
 title: 生成AI入門してみた② 自然言語処理の仕組み編
 tags:
   - 初心者
-  - 生成AI
   - 自然言語処理
+  - 生成AI
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-01-02T11:05:44+09:00'
+id: 98ab394bbdf2c3890302
 organization_url_name: null
 slide: false
 ignorePublish: false
