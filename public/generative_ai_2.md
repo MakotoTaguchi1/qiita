@@ -5,7 +5,7 @@ tags:
   - 自然言語処理
   - 生成AI
 private: false
-updated_at: '2026-01-04T10:59:34+09:00'
+updated_at: '2026-01-04T11:51:10+09:00'
 id: 98ab394bbdf2c3890302
 organization_url_name: null
 slide: false
@@ -22,6 +22,48 @@ ignorePublish: false
 ChatGPT は、文章を読んで意味を理解し、自然な文章を生成します。
 ただしコンピュータは人間とは異なり、**言葉を数値化**しています。
 この章では、自然言語処理（NLP）の仕組みを順番に見ていきます。
+
+:::note info
+この記事は生成 AI 初心者が書いており、技術的に正しくない記載・表現が全然ありえます。
+また技術的な正しさよりも、初心者・非エンジニアでも理解できるような粒度を目指して書きました。こちらご留意下さい。
+:::
+
+## 目次
+
+[第 1 部: 基礎編](https://qiita.com/MAKOTO1995/items/44da29e6d73ff8c84b6d)
+
+キーワード
+
+- 推論・学習
+- LLM
+- ニューラルネットワーク・ディープラーニング
+- LLM と AI エージェントの違い
+
+[第 2 部: 自然言語処理の仕組み編](https://qiita.com/MAKOTO1995/items/98ab394bbdf2c3890302) **← 今ココ**
+
+キーワード
+
+- 自然言語処理とは
+- 機械翻訳との関係
+- 単語の意味を理解する仕組み（ベクトル・word2vec）
+- 文章を理解する仕組み（RNN・エンコーダ・デコーダ・seq2seq・Attention）
+
+[第 3 部: Trasformer の仕組み編](https://qiita.com/MAKOTO1995/items/06d29f77e35d6fdd7c4b)
+
+キーワード
+
+- Transformer の理解がなぜ重要か
+- seq2seq と Transformer の違い
+- Transformer の構造
+- Transformer の学習の仕組み
+
+[第 4 部: 発展編](https://qiita.com/MAKOTO1995/items/e2d229b2f11ba8fadaef)
+
+キーワード
+
+- MoE
+- RAG
+- ReAct
 
 ## この章でわかること
 
