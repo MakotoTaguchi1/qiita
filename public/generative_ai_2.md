@@ -5,7 +5,7 @@ tags:
   - 自然言語処理
   - 生成AI
 private: false
-updated_at: '2026-01-02T11:05:44+09:00'
+updated_at: '2026-01-04T10:59:34+09:00'
 id: 98ab394bbdf2c3890302
 organization_url_name: null
 slide: false
@@ -219,7 +219,7 @@ RNN を使った文章生成では、役割の異なる以下 2 つを組み合�
 
 という流れで処理が行われます。
 
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/577028/edd04cd0-9d9a-454b-8cc8-c0450158a309.png)
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/577028/ff2fe80c-bd57-45f8-a892-2ed241f4d2ab.png)
 
 ### Attention
 
