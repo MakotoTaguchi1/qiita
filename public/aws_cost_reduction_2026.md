@@ -2,12 +2,12 @@
 title: AWS コスト削減の実践例と、削減推進するなかで培った大事な姿勢
 tags:
   - AWS
-  - クラウド
+  - Cloud
   - コスト削減
   - 運用
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-10-02T20:49:23+09:00'
+id: 9b64d8658e032c382db3
 organization_url_name: null
 slide: false
 ignorePublish: false
